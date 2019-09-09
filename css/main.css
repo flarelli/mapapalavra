@@ -1,0 +1,37 @@
+.header-1{
+    background-color: white;
+
+}
+.logo{
+    text-align: center;
+    width: center;
+}
+.busca{
+    text-align: center;
+    width: center;
+}
+.busca input{
+    
+    height: 36px;
+    margin-top: 30px;
+    width: 500px;
+    padding: 7;
+    border: 1px solid gray;
+}
+.busca button{
+    height: 35px;
+    margin-top: 10px;
+    width: 50px;
+    background-image: url(../img/busca.png);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 118%;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 12px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}

@@ -1,0 +1,33 @@
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="./css/main.css">
+<title>Busca Palavra</title>
+<script type="text/javascript" src="http://api.eventful.com/js/api"></script>
+</head>
+<body>
+    <div class="container">
+    <header class="menu-principal">
+        
+        <div class="header-1">
+            <div class="logo">
+            <img src="./img/logo.png" />
+            </div>
+        </div>
+    
+
+    </header>
+    <div class="busca">
+        <form action="./mapa.html" id="formulario">
+            <input placeholder="Digite a Palavra" type="text" name="palavra" id="palavra"/>
+                
+                    <button type="submit" id="gerarmapa" onclick="location.href='./mapa.html?palavra='+document.getElementById('palavra').value" ></button>
+                               
+        </form>
+    </div>
+    </div>
+    
+    <script src="js/jquery.js"></script>
+    <script src="js/main.js"></script>   
+</body>
+
+</html>
